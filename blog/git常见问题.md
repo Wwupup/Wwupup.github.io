@@ -1,3 +1,9 @@
+---
+slug: git-blog
+title: git常见问题
+tags: [git, github]
+---
+
 # 合并多个commit：
 ```bash
 git log -4 # 4表示显示4条记录
@@ -34,4 +40,5 @@ git reset --soft commitID # 撤销commit并将改动放到暂存区
 git log -[number] # 查看log记录，显示number条
 git log --oneline # 查看log记录，仅显示简单信息
 git log --graph # 查看log记录，显示关系图
+git commit --amend # 将暂存区的改动追加进上一次commit
 ```
